@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .8em;
+}
+
+p {
+  font-weight: bold;
+}
+
+.person {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #426AAA;
+}
+ p span {
+   color:red;
+ }
+.person-tile span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: #426AAA;
+  margin-bottom: 3px;
+}
+.person-tile .status{
+  font-weight: normal;
+  color: green;
+}
+.status::before {
+  content: url(http://camroselearning.com/wp-content/uploads/2014/05/Person.png);
+
+}
+
+.container{
+ /*height: 383px;*/
+ width: 507px;
+}
+
+.header {
+  background-color: #F2BD79;
+  color: #CD703B;
+  font-weight: bold;
+  padding: 10px;
+  font-size:1.25em;
+}
+
+.person-tile {
+  height: 150px;
+  width: 112px;
+  float: left;
+  padding: 5px;
+  margin: 5px;
+}
+
+#footer {
+  clear:both;
+  margin-top: 15px;
+  float: right;
+  color: red;
+}
